@@ -63,6 +63,13 @@ const scrobblerPropertiesMap = {
 			placeholder: 'accountsUserTokenPlaceholder',
 		},
 	},
+	Nostr: {
+		bunkerUri: {
+			type: 'text',
+			title: 'nostrBunkerUri',
+			placeholder: 'nostrBunkerPlaceholder',
+		},
+	},
 };
 
 /**
@@ -96,6 +103,7 @@ export default function Accounts() {
 			<ScrobblerDisplay label="Maloja" />
 			<ScrobblerDisplay label="Webhook" />
 			<ScrobblerDisplay label="Pleroma" />
+			<ScrobblerDisplay label="Nostr" />
 		</>
 	);
 }

@@ -171,6 +171,7 @@ const storageTypeMap = {
 	Maloja: LOCAL,
 	Webhook: LOCAL,
 	Pleroma: LOCAL,
+	Nostr: LOCAL,
 
 	[NATIVE_SCROBBLER_NOTIFICATION]: LOCAL,
 	[BLOCKLISTS]: LOCAL,

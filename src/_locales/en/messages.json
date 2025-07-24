@@ -275,6 +275,14 @@
         "message": "Add Webhook",
         "description": "Button label"
     },
+    "nostrBunkerUri": {
+        "message": "Remote Signer Code",
+        "description": "Nostr Remote Signer input label"
+    },
+    "nostrBunkerPlaceholder": {
+        "message": "bunker://...",
+        "description": "Nostr Remote Signer input placeholder"
+    },
     "optionsOptions": {
         "message": "Options",
         "description": "'Options' section"

@@ -13,6 +13,7 @@ import type {
 	CacheScrobble,
 	BlockedTags,
 	Blocklists,
+	NostrModel,
 } from '@/core/storage/wrapper';
 import type { RegexEdit } from './regex';
 
@@ -139,6 +140,7 @@ export function hideObjectValue(
 		| Properties
 		| ListenBrainzModel
 		| WebhookModel
+		| NostrModel
 		| StateManagement
 		| RegexEdit[]
 		| CacheScrobble[]
